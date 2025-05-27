@@ -8,6 +8,7 @@ jobs:
     uses: ./.github/workflows/main.yml
     secrets: inherit
     with:
+      nav: 'vi'
       board: '[
         "corneish_zen_v1_left","corneish_zen_v1_right",
         "corneish_zen_v2_left","corneish_zen_v2_right"
